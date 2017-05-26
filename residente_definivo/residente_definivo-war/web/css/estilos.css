@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+#fondo{
+    font-family: 'arial', sans-serif;
+    margin: auto;
+    padding: auto;
+    color: #fff;
+    background: url(../imga/fondo2.jpg);
+ }
+ #fondo1{
+    font-family: 'arial', sans-serif;
+    margin: auto;
+    padding: auto;
+    color: #fff;
+    background: url(../imga/salida1.jpg);
+
+ }
+ #contenedor{
+    width: 50%;
+    margin: auto;
+    background-color: #157086 ;
+    padding: 5px;
+    margin-top: 10px;
+
+ }
+ #contenedor h2{
+    font-size: 24px;
+    color: #2EA511;
+    text-align: center;
+ }
+ #contenedor form{
+    margin: 70px;
+    color: #4DAD80;
+    
+ }
+ #contenedor p{
+    width: 200px;
+    margin-top: 20px;
+    color: #4DAD80;
+     font-size: 16pt;
+     margin: .5em 0 0 0;
+ }
+ #porciones{
+     width: 150px;
+    margin-top: 10px;
+    color: #4DAD80;
+     font-size: 5pt;
+ }
+ #contenedor h1{
+    width: 200px;
+    margin-top: 14px;
+    color: #4DAD80;
+ }
+ #contenedor h4{
+     width: 200px;
+    margin-top: 14px;
+    color: #FBFBEF;
+     
+ }
+ 
+ input{
+    margin-top: 2px;
+    width: 8%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 20px;
+
+ }
+ select{
+     margin-top: 2px;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+     
+ }
+ textarea{
+    margin-top: 2px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 70px;
+    resize: none;
+   
+
+
+ }
+ #registro{
+    margin-top: 2px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background: #0A4268;
+    background: linear-gradient(#3ABD42, #0A4268);
+    float: right;
+    border: 0;
+
+ }
+
+ #registro1{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background: #0A4268;
+    background: linear-gradient(#3ABD42, #0A4268);
+    float: left;
+    border: 0;
+
+ }
+ @media only  screen and (min-width: 701) and (max-width: 989){
+    #contenedor{
+        width: 50%;
+        margin: 0 auto;
+
+    }
+ }
+
+
+
+#menuentrada1{
+background: #c7eff2;  /*Color de la barra, nosotros la tenemos de color azul, pero puedes poner el color que quieras*/
+  width:100%; 
+  height:40px; /*Alto de la barra*/
+  padding: 7px 0 0;
+  position:fixed; /*Para que la barra se quede fija*/
+  z-index:101; /*Para que la barra se quede fija*/
+  letter-spacing:2px; /*Espacio entre las letras, para que se vean más separadas*/
+    color:#2EA511;
+}
+#menuentrada{
+    color:#2EA511;
+    background: #c7eff2;  /*Color de la barra, nosotros la tenemos de color azul, pero puedes poner el color que quieras*/
+  width:100%; 
+  height:40px; /*Alto de la barra*/
+  padding: 7px 0 0;
+  position:fixed; /*Para que la barra se quede fija*/
+  z-index:101; /*Para que la barra se quede fija*/
+  letter-spacing:2px; /*Espacio entre las letras, para que se vean más separadas*/
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8 px;
+    width: 200px;
+    margin-top: 20px;
+    color: #060449
+}
+
+tr:nth-child(even) {
+    background-color: #FFF5EE;
+}
+#salida{
+    width: 200px;
+    margin-top: 14px;
+    color:#060449;
+}
+p{
+    width: 200px;
+    margin-top: 14px;
+    color:#060449;
+}
+#nota{
+    margin-top: 2px;
+    width: 200%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    color:#060449;
+}
+#montopagar{
+    font-size: 24px;
+    color:#060449;
+
+}
+#detallepagar{
+    color:#060449;
+    width: 20%;
+    margin: left;
+    padding: 10px;
+}
